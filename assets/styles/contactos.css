@@ -1,0 +1,37 @@
+.contenedor{
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width:100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: darkseagreen;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="text"]:hover{
+    background-color: lemonchiffon;
+}
+input[type="email"]:hover{
+    background-color: lemonchiffon;
+}
+input[type="submit"]:hover{
+    background-color: darkgreen;
+}

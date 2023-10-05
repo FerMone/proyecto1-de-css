@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid green;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: bisque; 
+}
+
+th{
+    border: 2px solid beige;
+    padding: 10px;
+    background-color: darkolivegreen;
+}
+td{
+    border: 1px solid green;
+    padding: 10px;
+    background-color: bisque;
+}
+
+tr:hover{
+    background-color: rgb(64, 116, 13);
+}
